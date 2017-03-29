@@ -68,11 +68,11 @@
 	------------------------------------------------------- */
 	var ssLightGallery = function() {
 
-		$('#folio-wrap').lightGallery({  
-			showThumbByDefault: false,
-			hash: false,
-			selector: ".item-wrap"		
-		});
+		// $('#folio-wrap').lightGallery({  
+		// 	showThumbByDefault: false,
+		// 	hash: false,
+		// 	selector: ".item-wrap"		
+		// });
 	};
 
 
@@ -406,7 +406,7 @@
 		ssPreloader();
 		ssFitVids();
 		ssMasonryFolio();
-		ssLightGallery();
+		// ssLightGallery();
 		ssFlexSlider();
 		ssOwlCarousel();
 		ssMenuOnScrolldown();

@@ -2221,7 +2221,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   overflow: hidden;
 }
 .bricks-wrapper .item-wrap .overlay {
-  cursor: zoom-in;
+  /*cursor: zoom-in;*/
 }
 .bricks-wrapper .item-wrap .overlay img {
   vertical-align: bottom;
@@ -2520,7 +2520,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 #testimonials .flex-control-nav li {
   margin: 0 6px;
   display: inline-block;
-  zoom: 1;
+  /*zoom: 1;*/
 }
 
 #testimonials .flex-control-paging li a {
