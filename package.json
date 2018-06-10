@@ -1,0 +1,25 @@
+{
+  "name": "samanthabretous.github.io",
+  "version": "1.0.0",
+  "description": "==================================================================================================",
+  "main": "webpack.config.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samanthabretous/samanthabretous.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samanthabretous/samanthabretous.github.io/issues"
+  },
+  "homepage": "https://github.com/samanthabretous/samanthabretous.github.io#readme"
+}
